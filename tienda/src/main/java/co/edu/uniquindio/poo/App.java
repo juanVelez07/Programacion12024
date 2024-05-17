@@ -23,5 +23,7 @@ public class App {
         empleado.setCedula("54565654");
         empleado.setSalario(200000);
         JOptionPane.showMessageDialog(null, empleado);
+        System.out.println("HOLAA");
     }
 }
+
