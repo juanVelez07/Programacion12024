@@ -9,10 +9,19 @@ import javax.swing.JOptionPane;
 public class App {
     public static void main(String[] args) {
         
-        Cliente cliente = new Cliente("Juan", "Perez", "12345", "j@gmail.com");
+        Cliente cliente = new Cliente("","","","");
+        cliente.setNombre("Luisa");
+        cliente.setApellidos("Londoño");
+        cliente.setCedula("1321546556");
+        cliente.setEmail("juandma.com");
+        
         JOptionPane.showMessageDialog(null, cliente);
 
-        Empleado empleado = new Empleado(350000, "Pedro", "Rios", "p@gmail.com");
+        Empleado empleado = new Empleado(350000, "Pedro", "", "");
+        empleado.setNombre("robinson");
+        empleado.setApellidos("rios");
+        empleado.setCedula("54565654");
+        empleado.setSalario(200000);
         JOptionPane.showMessageDialog(null, empleado);
     }
 }
